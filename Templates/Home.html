@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+     {% load static %}
+     <link rel="icon" href="{% static 'assets/img_8.png' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
     <style>
 
         h1{
@@ -17,6 +20,8 @@
     </style>
 </head>
 <body>
+<a href="{% url 'gallery' %}"></a>
+
 <marquee behavior="" direction=""><h1>Welcome to ShopSwift</h1></marquee>
 
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic impedit, itaque quidem repellat reprehenderit sapiente sed! Culpa delectus dolorum illo labore nesciunt non pariatur perspiciatis quae quasi, repudiandae. Suscipit, voluptatum!</span><span>Omnis praesentium quae quibusdam! Corporis sint soluta vero voluptas. Adipisci cupiditate debitis distinctio eum expedita facere, facilis fugit in mollitia obcaecati officiis, placeat porro quidem quo tempora veniam vero voluptatem.</span></p>
