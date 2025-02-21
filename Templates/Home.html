@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
      {% load static %}
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'gallery' %}">Gallery</a>
      <link rel="icon" href="{% static 'assets/img_8.png' %}">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
     <style>
@@ -18,9 +20,10 @@
             text-align: center;
         }
     </style>
+    
 </head>
 <body>
-<a href="{% url 'gallery' %}"></a>
+<a href="{% url 'about' %}"></a>
 
 <marquee behavior="" direction=""><h1>Welcome to ShopSwift</h1></marquee>
 
